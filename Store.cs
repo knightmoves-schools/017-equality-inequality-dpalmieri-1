@@ -2,7 +2,7 @@
 public class Store
 {
     // Add your code here
-    public static string PriceCheck(double price)
+    public string PriceCheck(double price)
     {
         if(price == 1.50)
         {
@@ -13,7 +13,7 @@ public class Store
         }
     }
 
-    public static string GuessNumber(int guess)
+    public string GuessNumber(int guess)
     {
         if(guess == 25)
         {
